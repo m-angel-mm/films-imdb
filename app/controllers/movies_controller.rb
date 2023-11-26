@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# movies controller
 class MoviesController < ApplicationController
   def new; end
 
