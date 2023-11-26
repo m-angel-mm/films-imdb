@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  get 'movies/new'
+  get 'movies/create'
+  get 'movies/delete'
+  get 'movies/update'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
